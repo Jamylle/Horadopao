@@ -30,4 +30,11 @@
     <string name="terms_of_use">By clicking REGISTER, you agree to our Terms and that you have read our Data Policy.</string>
     <!-- Labels -->
 
+    <!-- Menu Items -->
+    <string name="menu_item_places">Padarias</string>
+    <string name="menu_item_offers">Promoções</string>
+    <string name="menu_item_orders">Pedidos</string>
+    <string name="menu_item_more">Mais</string>
+    <!-- Menu Items -->
+
 </resources>
