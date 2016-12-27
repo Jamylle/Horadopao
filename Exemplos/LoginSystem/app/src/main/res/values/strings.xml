@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Login System</string>
 
-    <string name="FacebookAppId">1547702151911831</string>
-    <string name="fb_login_protocol_scheme">fb1547702151911831</string>
+    <string name="FacebookAppId"><!--Facebook App ID--></string>
+    <string name="fb_login_protocol_scheme">fb<!--Facebook App ID--></string>
 
     <string name="server_client_id"><!--GOOGLE SERVER ID--></string>
 
