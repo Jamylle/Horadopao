@@ -1,7 +1,9 @@
-package com.example.jamylle.ahoradopao;
+package com.example.jamylle.ahoradopao.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.jamylle.ahoradopao.R;
 
 public class Padarias extends AppCompatActivity {
 

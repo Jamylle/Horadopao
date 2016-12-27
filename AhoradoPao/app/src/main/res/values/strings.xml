@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">AhoradoPao</string>
+    <string name="app_name">A Hora do Pão</string>
+
+    <string name="FacebookAppId"><!--FACEBOOK APP ID--></string>
+    <string name="fb_login_protocol_scheme"><!--FACEBOOK APP ID--></string>
+
+    <string name="server_client_id"><!--GOOGLE SERVER ID--></string>
+
+    <!-- Hints -->
+    <string name="hint_name">Name</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <!-- Hints -->
+
+    <!-- Buttons -->
+    <string name="facebook_button">Facebook</string>
+    <string name="google_button">Google</string>
+    <string name="login_button">Log In</string>
+    <string name="recover_button">Forgot password?</string>
+    <string name="register_button">Register</string>
+    <!-- Buttons -->
+
+    <!-- Toolbars -->
+    <string name="toolbar_title">Login System</string>
+    <string name="toolbar_sub_title">Android Samples</string>
+    <!-- Toolbars -->
+
+    <!-- Labels -->
+    <string name="register_screen_banner">Create your account</string>
+    <string name="terms_of_use">By clicking REGISTER, you agree to our Terms and that you have read our Data Policy.</string>
+    <!-- Labels -->
+
 </resources>
