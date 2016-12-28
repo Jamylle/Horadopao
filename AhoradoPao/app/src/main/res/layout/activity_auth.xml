@@ -7,4 +7,5 @@
 
     <include
         layout="@layout/include_view_pager"/>
+
 </LinearLayout>

@@ -54,7 +54,7 @@ public class Padarias extends AppCompatActivity {
                                 fragmentTransaction.replace(R.id.container, new OrdersFragment()).commit();
                                 return true;
 
-                            case R.id.action_more:
+                            case R.id.action_options:
 
                                 fragmentTransaction = fragmentManager.beginTransaction();
                                 fragmentTransaction.replace(R.id.container, new OptionsFragment()).commit();
