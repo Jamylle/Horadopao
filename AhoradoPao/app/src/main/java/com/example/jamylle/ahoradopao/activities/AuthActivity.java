@@ -82,6 +82,5 @@ public class AuthActivity extends AppCompatActivity {
 
             return fragmentNames.get(position);
         }
-
     }
 }

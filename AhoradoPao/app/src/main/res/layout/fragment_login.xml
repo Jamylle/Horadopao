@@ -71,6 +71,7 @@
                 android:maxLength="50"
                 android:maxLines="1"
                 android:textSize="15sp"/>
+
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -88,6 +89,7 @@
                 android:maxLength="20"
                 android:maxLines="1"
                 android:textSize="15sp"/>
+
         </android.support.design.widget.TextInputLayout>
 
         <Button
@@ -108,4 +110,5 @@
             android:textAllCaps="false"
             android:textSize="15sp"/>
     </LinearLayout>
+
 </android.support.v4.widget.NestedScrollView>

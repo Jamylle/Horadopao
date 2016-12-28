@@ -24,6 +24,8 @@ public class Padarias extends AppCompatActivity {
 
         final FragmentManager fragmentManager = getSupportFragmentManager();
 
+        fragmentManager.beginTransaction().replace(R.id.container, new PlacesFragment()).commit();
+
         final BottomNavigationView bottomNav = (BottomNavigationView) findViewById(R.id.bottomNav);
 
         bottomNav.setOnNavigationItemSelectedListener(

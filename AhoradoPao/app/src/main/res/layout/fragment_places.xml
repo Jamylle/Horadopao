@@ -2,13 +2,11 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+    android:layout_height="wrap_content">
 
-    <TextView
+    <ListView
+        android:id="@+id/listView_places"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sem padarias nessa região..."
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
