@@ -7,16 +7,16 @@
     <string name="server_client_id"><!--GOOGLE SERVER ID--></string>
 
     <!-- Hints -->
-    <string name="hint_name">Name</string>
+    <string name="hint_name">Nome</string>
     <string name="hint_email">E-mail</string>
-    <string name="hint_password">Password</string>
+    <string name="hint_password">Senha</string>
     <!-- Hints -->
 
     <!-- Buttons -->
     <string name="facebook_button">Facebook</string>
     <string name="google_button">Google</string>
     <string name="login_button">Log In</string>
-    <string name="recover_button">Forgot password?</string>
+    <string name="recover_button">Esqueceu a senha?</string>
     <string name="register_button">Register</string>
     <!-- Buttons -->
 
@@ -26,8 +26,8 @@
     <!-- Toolbars -->
 
     <!-- Labels -->
-    <string name="register_screen_banner">Create your account</string>
-    <string name="terms_of_use">By clicking REGISTER, you agree to our Terms and that you have read our Data Policy.</string>
+    <string name="register_screen_banner">Criar nova conta</string>
+    <string name="terms_of_use">Ao clicar em REGISTRAR, você concorda com nossos Termos e que leu nossa Política de dados.</string>
     <!-- Labels -->
 
     <!-- Menu Items -->
@@ -35,6 +35,10 @@
     <string name="menu_item_offers">Promoções</string>
     <string name="menu_item_orders">Pedidos</string>
     <string name="menu_item_more">Mais</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <!-- Menu Items -->
 
 </resources>
