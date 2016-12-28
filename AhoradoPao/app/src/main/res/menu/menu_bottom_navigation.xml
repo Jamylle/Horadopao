@@ -23,6 +23,6 @@
         android:id="@+id/action_more"
         android:enabled="true"
         android:icon="@drawable/ic_dots_horizontal_white_24dp"
-        android:title="@string/menu_item_more"
+        android:title="@string/menu_item_options"
         app:showAsAction="ifRoom"/>
 </menu>
