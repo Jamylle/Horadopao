@@ -8,6 +8,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Promoções por aqui..."/>
+        android:gravity="center"
+        android:text="Nenhuma promoção encontrada :( \n Continuaremos procurando..."
+        android:textSize="20sp"/>
 
 </LinearLayout>
