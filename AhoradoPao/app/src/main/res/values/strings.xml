@@ -30,6 +30,9 @@
     <string name="menu_item_offers">Promoções</string>
     <string name="menu_item_orders">Pedidos</string>
     <string name="menu_item_options">Mais</string>
+    <string name="menu_filter_option">Aplicar Filtro</string>
     <!-- Menu Items -->
+    
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien diam, luctus fermentum elit in, accumsan ultrices mauris. Maecenas sed nisl id velit pharetra consectetur in auctor velit. Phasellus lobortis erat eros, suscipit tempor est pulvinar sit amet. Nulla condimentum pulvinar elit a convallis. Sed iaculis purus vel sem auctor lacinia. Phasellus porta velit eget eros tincidunt aliquet. Morbi ut lectus eget augue dapibus rhoncus. Donec vestibulum erat id ultricies mollis. Phasellus enim erat, porta accumsan auctor ac, eleifend eget lacus. Sed vitae nibh sed dui finibus luctus at efficitur metus.</string>
 
 </resources>
