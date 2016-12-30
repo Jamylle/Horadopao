@@ -41,7 +41,7 @@ public class PlaceDetailsFragment extends Fragment {
 
         TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbar_main_title);
         toolbarTitle.setText(bundle.getString("nome"));
-        toolbarTitle.setTextSize(15);
+        toolbarTitle.setTextSize(18);
 
         TextView nome          = (TextView) view.findViewById(R.id.textView_bakery_name);
         TextView avaliacao     = (TextView) view.findViewById(R.id.textView_ratingBar);

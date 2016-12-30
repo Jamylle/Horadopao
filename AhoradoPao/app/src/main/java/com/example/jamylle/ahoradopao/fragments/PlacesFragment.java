@@ -1,20 +1,28 @@
 package com.example.jamylle.ahoradopao.fragments;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.jamylle.ahoradopao.R;
 import com.example.jamylle.ahoradopao.adapters.PadariaAdapter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PlacesFragment extends Fragment {
 
@@ -35,6 +43,53 @@ public class PlacesFragment extends Fragment {
         if(!toolbar.getMenu().hasVisibleItems()) {
 
             toolbar.inflateMenu(R.menu.menu_toolbar_main);
+            toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+
+                @Override
+                public boolean onMenuItemClick(MenuItem item) {
+
+                    switch (item.getItemId()) {
+
+                        case R.id.action_filter:
+
+                            LayoutInflater inflater = getActivity().getLayoutInflater();
+                            View dialogView = inflater.inflate(R.layout.dialog_filter_places, null);
+
+                            ArrayList<String> spinnerOptions = new ArrayList<>();
+                            spinnerOptions.add("Relevância");
+                            spinnerOptions.add("Proximidade");
+                            spinnerOptions.add("Maior preço");
+                            spinnerOptions.add("Menor Preço");
+
+                            ArrayAdapter<String> dataAdapter =
+                                    new ArrayAdapter<>(getActivity(), android.R.layout.simple_spinner_item, spinnerOptions);
+
+                            dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+                            Spinner spinner = (Spinner) dialogView.findViewById(R.id.spinner);
+                            spinner.setAdapter(dataAdapter);
+
+                            AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+                            dialog.setView(dialogView);
+                            dialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) { }
+                            });
+                            dialog.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) { }
+                            });
+                            dialog.show();
+
+                            break;
+
+                        default:
+                            break;
+                    }
+
+                    return false;
+                }
+            });
         }
 
         padarias = initPlaces();
