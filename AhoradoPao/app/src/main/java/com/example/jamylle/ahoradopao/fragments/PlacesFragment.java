@@ -3,12 +3,9 @@ package com.example.jamylle.ahoradopao.fragments;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +19,6 @@ import com.example.jamylle.ahoradopao.R;
 import com.example.jamylle.ahoradopao.adapters.PadariaAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class PlacesFragment extends Fragment {
 
@@ -66,7 +62,7 @@ public class PlacesFragment extends Fragment {
 
                             dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-                            Spinner spinner = (Spinner) dialogView.findViewById(R.id.spinner);
+                            Spinner spinner = (Spinner) dialogView.findViewById(R.id.spinner_filter);
                             spinner.setAdapter(dataAdapter);
 
                             AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
